@@ -3,11 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tenant.DemoApp", "Tenant.DemoApp\Tenant.DemoApp.csproj", "{4197315D-9DDF-44DA-AEF5-73F2680825E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tenant.DemoApp", "Tenant.DemoApp\Tenant.DemoApp.csproj", "{4197315D-9DDF-44DA-AEF5-73F2680825E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tenant.DemoApp.Queries", "Tenant.DemoApp.Queries\Tenant.DemoApp.Queries.csproj", "{6B54A025-8C37-4131-BB9F-9133E8148D2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tenant.DemoApp.Queries", "Tenant.DemoApp.Queries\Tenant.DemoApp.Queries.csproj", "{6B54A025-8C37-4131-BB9F-9133E8148D2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tenant.DemoApp.Common", "Tenant.DemoApp.Common\Tenant.DemoApp.Common.csproj", "{840ABF84-476D-4ABC-8419-E8EC0EF2C1C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tenant.DemoApp.Common", "Tenant.DemoApp.Common\Tenant.DemoApp.Common.csproj", "{840ABF84-476D-4ABC-8419-E8EC0EF2C1C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3478D71E-7605-4B66-9A30-A6E8178255B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tenant.DemoApp.Tests", "Tenant.DemoApp.Tests\Tenant.DemoApp.Tests.csproj", "{732D1597-056D-4ABA-A7A8-DFB7E18EAF50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tenant.DemoApp.Queries.Tests", "Tenant.DemoApp.Queries.Tests\Tenant.DemoApp.Queries.Tests.csproj", "{06E12E2D-16B5-421B-95E1-F97014B58A66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tenant.DemoApp.Common.Tests", "Tenant.DemoApp.Common.Tests\Tenant.DemoApp.Common.Tests.csproj", "{D09866B8-51A2-4D09-B9F5-0DEE39E28DF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +35,26 @@ Global
 		{840ABF84-476D-4ABC-8419-E8EC0EF2C1C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{840ABF84-476D-4ABC-8419-E8EC0EF2C1C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{840ABF84-476D-4ABC-8419-E8EC0EF2C1C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{732D1597-056D-4ABA-A7A8-DFB7E18EAF50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732D1597-056D-4ABA-A7A8-DFB7E18EAF50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732D1597-056D-4ABA-A7A8-DFB7E18EAF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732D1597-056D-4ABA-A7A8-DFB7E18EAF50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E12E2D-16B5-421B-95E1-F97014B58A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E12E2D-16B5-421B-95E1-F97014B58A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E12E2D-16B5-421B-95E1-F97014B58A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E12E2D-16B5-421B-95E1-F97014B58A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09866B8-51A2-4D09-B9F5-0DEE39E28DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09866B8-51A2-4D09-B9F5-0DEE39E28DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09866B8-51A2-4D09-B9F5-0DEE39E28DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09866B8-51A2-4D09-B9F5-0DEE39E28DF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{732D1597-056D-4ABA-A7A8-DFB7E18EAF50} = {3478D71E-7605-4B66-9A30-A6E8178255B3}
+		{06E12E2D-16B5-421B-95E1-F97014B58A66} = {3478D71E-7605-4B66-9A30-A6E8178255B3}
+		{D09866B8-51A2-4D09-B9F5-0DEE39E28DF2} = {3478D71E-7605-4B66-9A30-A6E8178255B3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5944F71F-86DB-40FF-AAFC-80E3E2451E65}
